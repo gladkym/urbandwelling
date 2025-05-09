@@ -388,7 +388,7 @@ transition: 0.1s ease;
 @media (max-width: 1920px) {
   .form-input{
     width: 39px;
-    background: url(../img/svg/search.svg) no-repeat;
+    background: url(/img/svg/search.svg) no-repeat;
     background-color: black;
     background-position: center;
   }
@@ -610,7 +610,7 @@ transition: 0.1s ease;
 @media (max-width: 1920px) {
   .form-input{
     width: 39px;
-    background: url(../img/svg/search.svg) no-repeat;
+    background: url(/img/svg/search.svg) no-repeat;
     background-color: black;
     background-position: center;
   }
@@ -882,7 +882,7 @@ transition: 0.1s ease;
 @media (max-width: 1920px) {
   .form-input{
     width: 39px;
-    background: url(../img/svg/search.svg) no-repeat;
+    background: url(/img/svg/search.svg) no-repeat;
     background-color: black;
     background-position: center;
   }
@@ -1162,7 +1162,7 @@ transition: 0.1s ease;
   @media (max-width: 1920px) {
     .form-input{
       width: 39px;
-      background: url(../img/svg/search.svg) no-repeat;
+      background: url(/img/svg/search.svg) no-repeat;
       background-color: black;
       background-position: center;
       border: 1px solid black;
