@@ -1,0 +1,42 @@
+[
+    {
+      "name": "Встраиваемый светильник Markt",
+      "link": "img/lighter.png",
+      "prices": ["3 490", "6 660"]
+    },
+    {
+      "name": "Линейный светильник ARG",
+      "link": "img/lighter2.png",
+      "prices": ["6 700"]
+    },
+    {
+      "name": "Светодиодный светильник",
+      "link": "img/lighter.png",
+      "prices": ["5 060", "6 660"]
+    },
+    {
+      "name": "Встраиваемый светильник Markt",
+      "link": "img/lighter3.png",
+      "prices": ["3 490"]
+    },
+    {
+      "name": "Линейный светильник ARG",
+      "link": "img/lighter2.png",
+      "prices": ["6 700", "7 060"]
+    },
+    {
+      "name": "Светодиодный светильник",
+      "link": "img/lighter.png",
+      "prices": ["5 060"]
+    },
+    {
+      "name": "Встраиваемый светильник Markt",
+      "link": "img/lighter2.png",
+      "prices": ["3 490", "6 660"]
+    },
+    {
+      "name": "Линейный светильник ARG",
+      "link": "img/lighter3.png",
+      "prices": ["6 700"]
+    }
+  ]

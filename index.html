@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Urban Dwelling</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body class="page">
+    <nav class="header__top">
+      <ul class="header__top-menu">
+        <li>
+          <a href="#" class="header__top-link">Доставка и оплата</a>
+        </li>
+        <li>
+          <a href="#" class="header__top-link">Гарантия и возврат</a>
+        </li>
+        <li>
+          <a href="#" class="header__top-link">EN</a>
+        </li>
+      </ul>
+    </nav>
+  <header class="header">
+    <div class="header__container">
+      <a href="#" class="header__logo">
+        <img class="header__logo-image" src="./img/svg/logo.svg" alt="Логотип">
+      </a>
+      <nav class="header__nav">
+        <ul class="header__nav-items">
+          <li class="header__nav-item"><a href="#" class="header__nav-link">Каталог</a></li>
+          <li class="header__nav-item"><a href="#" class="header__nav-link">О компании</a></li>
+          <li class="header__nav-item"><a href="#" class="header__nav-link">Контакты </a></li>
+        </ul>
+      </nav>
+      <div class="header__nav-btn">
+          <form>
+            <input id="input" class="form-input" type="text"  required>
+          </form>
+          <div id="openCart" class="header__cart">
+            <img class="cart-image" src="./img/svg/cart.svg" alt="Корзина">
+            <span class="cart-count">3</span>
+            <a class="cart-text" href="#">Корзина</a>
+          </div>
+      </div>
+      <div class="header__burger">
+        <button id="openNav" class="burger">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </button>
+      </div>
+    </div>
+    <div id="navModal" class="nav__modal">
+      <div class="nav__modal-box">
+        <button id="closeNav" class="modal__close">
+          <svg xmlns="http://www.w3.org/2000/svg" 
+          width="24" 
+          height="24" 
+          viewBox="0 0 24 24" 
+          fill="none" 
+          stroke="currentColor" 
+          stroke-width="2" 
+          stroke-linecap="round" 
+          stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+        <ul class="modal-list">
+          <li class="nav__modal-item"><a href="#">Каталог</a></li>
+          <li class="nav__modal-item"><a href="#">О компании</a></li>
+          <li class="nav__modal-item"><a href="#">Контакты</a></li>
+          <li class="nav__modal-item"><a href="#">Доставка и оплата</a></li>
+          <li class="nav__modal-item"><a href="#">Гарантия и возврат</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+      <h1 class="main__title">Результаты поиска</h1>
+      <ul class="catalog"></ul>
+  </main>
+  <footer class="footer">
+    <div class="footer__logo">
+      <a href="#" class="footer__logo">
+        <img  src="./img/svg/footer-logo.svg" alt="Логотип">
+      </a>
+  </div>
+  <div>
+    <address class="footer__address">
+      <h2 class="footer__title">Адрес</h2>
+      <span class="footer__address-text footer__text">Lorem ipsum dolor sit  </span>
+    </address>
+  </div>
+  <div class="footer__contacts">
+    <h3 class="footer__title">Контакты</h3>
+    <ul class="footer__contacts-list">
+      <li class="contacts__list-item">
+        <p class="footer__contacts-email footer__text ">Email: 
+          <a class="footer__contacts-link"
+          href="mailto:urban.dwelling@yandex.com">urban.dwelling@yandex.com
+        </a>
+      </p>
+      </li>
+      <li class="contacts-list-item">
+        <div class="footer__contacts-phone footer__text">Телефон: 
+          <a class="footer__contacts-link"
+          href="tel: 8 (963) 245-39-79"> 8 (963) 245-39-79
+        </a>
+        </div>
+      </li>
+  </div> 
+  <div class="footer__service">
+    <h4 class="footer__title">Услуги</h4>
+    <ul class="footer__nav-items">
+      <li class="footer__nav-item"><a href="#" class="footer__text">Каталог</a></li>
+      <li class="footer__nav-item"><a href="#" class="footer__text">О компании</a></li>
+      <li class="footer__nav-item"><a href="#" class="footer__text">Контакты</a></li>
+      <li class="footer__nav-item"><a href="#" class="footer__text">Доставка и оплата</a></li>
+      <li class="footer__nav-item"><a href="#" class="footer__text">Гарантия и возврат</a></li>
+    </ul>
+  </div>
+    <div class="footer__legal">
+      <ul class="footer__legal-list">
+        <li>
+          <a href="#" class="footer__link">Публичная оферта</a>
+        </li>
+        <li>
+          <a href="#" class="footer__link">Политика персональных данных</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__payment">
+      <ul class="footer__payment-items">
+        <li class="footer__payment-item">
+          <a href="#" class="footer__payment-link">
+            <svg width="46" height="13" viewBox="0 0 46 13">
+              <use href="./img/svg/mir.svg#mirId"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__payment-item">
+          <a href="#" class="footer__payment-link ">
+            <svg  width="45" height="14" viewBox="0 0 45 14">
+              <use href="./img/svg/visa.svg#visaId"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__payment-item">
+          <a href="#" class="footer__payment-link ">
+            <svg width="49" height="29" viewBox="0 0 49 29">
+              <use href="./img/svg/ms.svg#masterId"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__notification">
+      Этот сайт защищен от спама службой reCAPTCHA Google.
+      <a class="footer__notification-link footer__link" href="#">Политика конфиденциальности</a>/<a
+        class="footer__notification-link footer__link" href="#">Условия предоставления услуг</a>
+    </div>
+  </footer>
+  <template id="card-template">
+    <li class="catalog__item">
+        <div class="item__card">
+          <img src="img/lighter.png" class="card-image" alt="MARKT">
+          <button class="promo-button" hidden>Акция</button>
+          <div class="details-button__container"> 
+            <button class="details-button">Подробнее</button>
+          </div>
+        </div>
+        <div class="item__info">
+          <h2 class="item__info-title"><b>Встраиваемый светильник Markt</b></h2>
+          <span class="item__info-price">
+            <span class="newPrice">3 490 ₽</span>
+            <span class="oldPrice" hidden><s></s></span>
+          </span>
+        </div>
+    </li>
+  </template>
+  <script  src="/main.js"></script>
+</body>
+
+</html>
