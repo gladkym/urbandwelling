@@ -7,7 +7,7 @@
   font-style: normal;
   font-weight: 400;
   src:
-       url('Korataki.woff') format('woff');
+       url('/Korataki.woff') format('woff');
 }
 
 html {
