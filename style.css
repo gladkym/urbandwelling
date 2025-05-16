@@ -721,6 +721,7 @@ transition: 0.1s ease;
   }
 }
 
+
 .footer__logo {
   grid-area: logo;
   grid-column: 1;
@@ -1054,7 +1055,7 @@ transition: 0.1s ease;
     }
   
     .footer .footer__service  {
-      grid-area: 2 / 2 / 4 / 4; 
+      grid-area: 2 / 3 / 4 / 4; 
       text-align: start;
     }
   
@@ -1240,7 +1241,7 @@ transition: 0.1s ease;
     }
 
   
-  @media (max-width: 940px){
+  @media (max-width: 944px){
     .footer {
       display: flex;
       flex-direction: column;
@@ -1256,6 +1257,7 @@ transition: 0.1s ease;
     .footer__notification {
       margin-left: 0;
     }
+
     
   }
   
